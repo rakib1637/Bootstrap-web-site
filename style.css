@@ -5,8 +5,120 @@ body {
     font-family: 'Muli', sans-serif;
 }
 
+ul {
+    padding: 0;
+    list-style: none;
+}
+
 /***********css Animation*********/
-.navbar-brand {}
-.navbar-brand  img{
-    max-height: 40px;
+header {
+    padding: 0;
+}
+
+header nav#topBar {
+    padding: 0 0 0 25px;
+}
+
+.navbar-brand {
+    /*padding: 0 0;*/
+}
+
+.navbar-brand img {
+    max-height: 45px;
+
+}
+
+header nav#topBar .logout-btn {
+    background-color: transparent;
+    height: 55px;
+    border-left: 1px solid #cccccc;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 0 20px 0 20px;
+    font-size: 14px;
+}
+
+header nav#topBar .logout-btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+/*******tab menu*********/
+.bg-tab-menu {
+    background-color: #f4f7f6 !important;
+}
+
+nav.tab-menu.navbar {
+    padding: 0;
+    border: 1px solid #dee2e6;
+}
+
+nav.tab-menu.navbar ul {
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+nav.tab-menu.navbar ul li {
+    flex: 1;
+    position: relative;
+    overflow: visible;
+}
+
+nav.tab-menu.navbar ul li:after {
+    content: '';
+    height: 31px;
+    width: 31px;
+    background-color: #f4f7f6;
+    position: absolute;
+    top: 6px;
+    right: -16px;
+    transform: rotate(45deg);
+    border-radius: 0 0 0 68px;
+    border-right: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+    z-index: 99;
+}
+
+nav.tab-menu.navbar ul li:hover:after,
+nav.tab-menu.navbar ul li.active:after {
+    background-color: #1d5479;
+    border-color: #1d5479;
+
+}
+
+nav.tab-menu.navbar ul li:hover,
+nav.tab-menu.navbar ul li.active {
+    background-color: #1d5479;
+}
+
+nav.tab-menu.navbar ul li:last-child:after {
+    display: none;
+}
+nav.tab-menu.navbar ul li a.nav-link {
+    color: #1d5479;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-left: 40px;
+}
+
+nav.tab-menu.navbar ul li:first-child a.nav-link {
+    border-left: 1px solid #dee2e6;
+}
+
+nav.tab-menu.navbar ul li:last-child a.nav-link {
+    border-right: 1px solid #dee2e6;
+}
+
+nav.tab-menu.navbar ul li:hover a.nav-link,
+nav.tab-menu.navbar ul li.active a.nav-link {
+    color: #ffffff;
+}
+
+nav.tab-menu.navbar ul li a.nav-link:hover {
+}
+
+nav.tab-menu.navbar {
 }

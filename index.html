@@ -31,16 +31,40 @@
 <![endif]-->
 <header>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <div class="container-fluid">
+    <nav id="topBar" class="navbar navbar-expand-md ">
+        <div class="container-fluid pr-0">
             <a class="navbar-brand" href="javascript:"><img src="img/logo.png" alt=""></a>
+            <form class="form-inline">
+                <button class="btn logout-btn" type="submit">Log Out</button>
+            </form>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-md  navbar-light bg-tab-menu tab-menu ">
+        <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="collapse justify-content-center navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav col-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="javascript:">1. Questionnaire
+                             </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:">2. Review
+                            </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="javascript:">3. Select Package
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:">4. Payment</a>
+                    </li>
 
-            <form class="form-inline my-2 my-lg-0">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign Out</button>
-            </form>
+                </ul>
+
+            </div>
         </div>
     </nav>
 </header>
