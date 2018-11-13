@@ -7,6 +7,7 @@ body {
 
 ul {
     padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -132,19 +133,11 @@ nav.tab-menu.navbar {
 }
 
 .additional-option .details {
+    margin-bottom: 40px;
 }
 
 .additional-option .details h2 {
     font-weight: 700;
-}
-
-.additional-option .details p {
-}
-
-.additional-option .details {
-}
-
-.all-options {
 }
 
 .all-options .option {
@@ -163,7 +156,6 @@ nav.tab-menu.navbar {
 .all-options .option h6 {
     font-weight: 600;
     opacity: 0.9;
-
 }
 
 .all-options .option p {
@@ -171,7 +163,6 @@ nav.tab-menu.navbar {
     font-size: 12px;
     font-weight: 400;
     margin: 0;
-
 }
 
 .all-options .option img {
@@ -224,7 +215,7 @@ nav.tab-menu.navbar {
 
 .summery h4 {
     background-color: #f4f7f6;
-margin: 0;
+    margin: 0;
     padding: 15px 0;
 }
 
@@ -236,7 +227,7 @@ margin: 0;
 }
 
 .summery ul li {
-    padding: 15px ;
+    padding: 15px;
 }
 
 .summery ul li.top {
@@ -244,8 +235,14 @@ margin: 0;
     padding: 20px 15px 20px 15px;
 }
 
+.summery ul li.top .line {
+    min-height: 10px;
+
+}
+
 .summery ul li .line {
     min-height: 40px;
+    display: flex;
 }
 
 .summery ul li .left {
@@ -254,25 +251,105 @@ margin: 0;
     display: inline-flex;
     padding: 0 10px 0 0;
 }
-.summery ul li .left span{
+
+.summery ul li .left small {
+    margin: 3px 0 0 4px;
+    font-weight: 600;
+}
+
+.summery ul li .left span {
     display: block;
     opacity: 0.4;
 
 }
+
 .summery ul li .left svg {
     color: #cccccc;
     font-size: 18px;
 }
 
 .summery ul li .right {
-    width: calc(30% - 5px);
-    display: inline-block;
+    width:calc(35% - 5px);
+    display: inline;
     text-align: right;
+    font-weight: 600;
 }
+
 .summery ul li .extra-1 {
     opacity: 0.7;
     font-weight: 600;
     margin-bottom: 15px;
 }
-.summery {
+
+.summery ul li.total {
+    background-color: #f4f7f6;
+    border-top: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+}
+
+.summery ul li.total .left {
+    display: inline-block;
+}
+.summery ul li .line.vtotal .left {
+    width: 40%;
+}
+
+.summery ul li .line.vtotal .right {
+    width: calc(60% - 5px);
+    font-weight: 800;
+    display: inline-block;
+}
+
+.summery ul li .line.vtotal {
+    font-size: 20px;
+    color: #1d5479;
+}
+
+.summery ul li.bottom {
+    background-color: #f4f7f6;
+}
+
+.summery ul li.bottom button.btn{
+    background-color: #ff7f00;
+    padding: 7px 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.summery ul li.bottom button.btn:focus,
+.summery ul li.bottom button.btn:active {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+p.extra-2 {
+    color: #1d5479;
+    font-weight: 600;
+}
+.back-link {
+    text-transform: uppercase;
+    color: #1d5479;
+    font-weight: 700;
+    font-size: 22px;
+    display: inline-block;
+}
+.back-link code{
+    font-size: 26px;
+    padding-right: 5px
+}
+.back-link:hover {
+    text-decoration: none;
+}
+
+    /********* Footer **************/
+footer {
+    width: 100%;
+    border-top: 1px solid #dddddd;
+    text-align: center;
+    line-height: 55px;
+}
+footer p {
+    margin: 0;
+    padding: 0;
 }
