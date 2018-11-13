@@ -120,5 +120,94 @@ nav.tab-menu.navbar ul li.active a.nav-link {
 nav.tab-menu.navbar ul li a.nav-link:hover {
 }
 
-nav.tab-menu.navbar {
+nav.tab-menu.navbar {}
+/*********additional-option style********/
+.additional-option{
+    border: 1px solid rgba(179, 185, 191, 0.5);
+    padding: 15px;
+    margin: 20px 0 ;
 }
+.additional-option .details{}
+.additional-option .details h2{
+    font-weight: 700;
+}
+.additional-option .details p{}
+.additional-option .details{}
+.all-options{}
+.all-options .option{
+    border-top: 1px solid #ddd;
+    padding: 10px 15px;
+}
+.all-options .option h5{
+    font-weight: 700;
+    color: #1d5479;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.all-options .option h6{
+    font-weight: 600;
+    opacity: 0.9;
+
+}
+.all-options .option p{
+    opacity: 0.8;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+
+}
+.all-options .option img{
+    max-width: 100%;
+}
+.all-options .option a {
+    color: #1d5479;
+    border: 1px solid #ddd;
+    padding: 7px 0;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 3px;
+    margin: 10px 15% 0 0;
+    display: inline-block;
+    text-align: center;
+    width: 130px;
+}
+.all-options .option a:hover {
+    text-decoration: none;
+    background-color: #1d5479;
+    color: #ffffff;
+}
+
+.all-options .option a:hover .normal,
+.all-options .option a .hover {
+    display: none;
+}
+.all-options .option a:hover .hover {
+    display: block;
+}
+.all-options .option ul {
+    opacity: 0.8;
+    list-style-type: lower-roman;
+    padding-left: 20px;
+    margin: 0;
+    font-size: 12px;
+
+}
+/****/
+.summery{
+    border: 1px solid #dddddd;
+    margin: 20px 0 ;
+    background-color: #f4f7f6;
+}
+.summery ul{}
+.summery ul li.top {
+    background-color: #dfeef6;
+}
+.summery ul li {
+}
+.summery ul li .left{
+    font-weight: 700;
+}
+.summery ul li .left svg{}
+.summery ul li .right{}
+.summery{}

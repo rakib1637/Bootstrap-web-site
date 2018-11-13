@@ -31,7 +31,9 @@
 /* Mobile: 767px. */
 @media only screen and (max-width: 767px) {
 
-
+    .all-options .option a {
+        margin: 10px 5% 0 0;
+    }
 
     nav.tab-menu.navbar ul li a {
         border: none !important;
@@ -43,8 +45,11 @@
 }
 
 /* Wide Mobile Layout: 480px. */
-@media only screen and (max-width: 480px) { 
-
+@media only screen and (max-width: 575px) {
+    .all-options .option,
+    .all-options .option .text-right {
+        text-align: center !important;
+    }
 }
 
 /* Mobile Layout: 320px. */
