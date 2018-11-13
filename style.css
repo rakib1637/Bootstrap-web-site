@@ -25,24 +25,32 @@ header nav#topBar {
 }
 
 .navbar-brand img {
-    max-height: 45px;
+    max-height: 55px;
 
 }
 
 header nav#topBar .logout-btn {
     background-color: transparent;
-    height: 55px;
+    height: 65px;
     border-left: 1px solid #cccccc;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 800;
     border-radius: 0;
-    padding: 0 20px 0 20px;
-    font-size: 14px;
+    padding: 0 20px 0 25px;
+    font-size: 16px;
 }
 
 header nav#topBar .logout-btn:focus {
     outline: 0;
     box-shadow: none;
+}
+
+header .navbar-toggler:focus {
+    outline: 0
+}
+
+header .navbar-toggler {
+    margin: 5px 0 5px 25px;
 }
 
 /*******tab menu*********/
@@ -69,12 +77,12 @@ nav.tab-menu.navbar ul li {
 
 nav.tab-menu.navbar ul li:after {
     content: '';
-    height: 31px;
-    width: 31px;
+    height: 37px;
+    width: 36px;
     background-color: #f4f7f6;
     position: absolute;
-    top: 6px;
-    right: -16px;
+    top: 7px;
+    right: -18px;
     transform: rotate(45deg);
     border-radius: 0 0 0 68px;
     border-right: 1px solid #dee2e6;
@@ -103,11 +111,12 @@ nav.tab-menu.navbar ul li a.nav-link {
     font-weight: 800;
     font-size: 18px;
     text-transform: capitalize;
-    padding-left: 40px;
+    padding: 12px 0 12px 35px;
 }
 
 nav.tab-menu.navbar ul li:first-child a.nav-link {
     border-left: 1px solid #dee2e6;
+    padding-left: 15px;
 }
 
 nav.tab-menu.navbar ul li:last-child a.nav-link {
@@ -134,10 +143,12 @@ nav.tab-menu.navbar {
 
 .additional-option .details {
     margin-bottom: 40px;
+    font-weight: 600;
 }
 
 .additional-option .details h2 {
     font-weight: 700;
+    margin: 15px 0 30px 0;
 }
 
 .all-options .option {
@@ -151,18 +162,21 @@ nav.tab-menu.navbar {
     padding-top: 5px;
     margin-bottom: 15px;
     text-transform: capitalize;
+    font-size: 18px;
 }
 
 .all-options .option h6 {
     font-weight: 600;
     opacity: 0.9;
+    font-size: 16px;
+    color: rgba(10,26,40, 1);
 }
 
 .all-options .option p {
-    opacity: 0.8;
     font-size: 12px;
     font-weight: 400;
     margin: 0;
+    color: rgba(18, 18, 18, 0.8);
 }
 
 .all-options .option img {
@@ -216,7 +230,8 @@ nav.tab-menu.navbar {
 .summery h4 {
     background-color: #f4f7f6;
     margin: 0;
-    padding: 15px 0;
+    padding: 17px 0;
+    font-weight: 700;
 }
 
 .summery ul {
@@ -269,7 +284,7 @@ nav.tab-menu.navbar {
 }
 
 .summery ul li .right {
-    width:calc(35% - 5px);
+    width: calc(35% - 5px);
     display: inline;
     text-align: right;
     font-weight: 600;
@@ -290,6 +305,7 @@ nav.tab-menu.navbar {
 .summery ul li.total .left {
     display: inline-block;
 }
+
 .summery ul li .line.vtotal .left {
     width: 40%;
 }
@@ -301,7 +317,7 @@ nav.tab-menu.navbar {
 }
 
 .summery ul li .line.vtotal {
-    font-size: 20px;
+    font-size: 22px;
     color: #1d5479;
 }
 
@@ -309,9 +325,9 @@ nav.tab-menu.navbar {
     background-color: #f4f7f6;
 }
 
-.summery ul li.bottom button.btn{
+.summery ul li.bottom button.btn {
     background-color: #ff7f00;
-    padding: 7px 20px;
+    padding: 7px 26px;
     color: #ffffff;
     text-transform: uppercase;
 }
@@ -322,34 +338,40 @@ nav.tab-menu.navbar {
     box-shadow: none;
 }
 
-
 p.extra-2 {
     color: #1d5479;
     font-weight: 600;
 }
+
 .back-link {
     text-transform: uppercase;
     color: #1d5479;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 16px;
     display: inline-block;
 }
-.back-link code{
-    font-size: 26px;
+
+.back-link code {
+    font-size: 22px;
     padding-right: 5px
 }
+
 .back-link:hover {
     text-decoration: none;
 }
 
-    /********* Footer **************/
+/********* Footer **************/
 footer {
     width: 100%;
     border-top: 1px solid #dddddd;
     text-align: center;
     line-height: 55px;
 }
+
 footer p {
     margin: 0;
     padding: 0;
+    font-weight: 400;
+    color: rgba(18, 18, 18, 1);
+
 }
