@@ -96,6 +96,7 @@ nav.tab-menu.navbar ul li.active {
 nav.tab-menu.navbar ul li:last-child:after {
     display: none;
 }
+
 nav.tab-menu.navbar ul li a.nav-link {
     color: #1d5479;
     font-weight: 800;
@@ -120,46 +121,63 @@ nav.tab-menu.navbar ul li.active a.nav-link {
 nav.tab-menu.navbar ul li a.nav-link:hover {
 }
 
-nav.tab-menu.navbar {}
+nav.tab-menu.navbar {
+}
+
 /*********additional-option style********/
-.additional-option{
+.additional-option {
     border: 1px solid rgba(179, 185, 191, 0.5);
     padding: 15px;
-    margin: 20px 0 ;
+    margin: 20px 0;
 }
-.additional-option .details{}
-.additional-option .details h2{
+
+.additional-option .details {
+}
+
+.additional-option .details h2 {
     font-weight: 700;
 }
-.additional-option .details p{}
-.additional-option .details{}
-.all-options{}
-.all-options .option{
+
+.additional-option .details p {
+}
+
+.additional-option .details {
+}
+
+.all-options {
+}
+
+.all-options .option {
     border-top: 1px solid #ddd;
     padding: 10px 15px;
 }
-.all-options .option h5{
+
+.all-options .option h5 {
     font-weight: 700;
     color: #1d5479;
     padding-top: 5px;
     margin-bottom: 15px;
     text-transform: capitalize;
 }
-.all-options .option h6{
+
+.all-options .option h6 {
     font-weight: 600;
     opacity: 0.9;
 
 }
-.all-options .option p{
+
+.all-options .option p {
     opacity: 0.8;
     font-size: 12px;
     font-weight: 400;
     margin: 0;
 
 }
-.all-options .option img{
+
+.all-options .option img {
     max-width: 100%;
 }
+
 .all-options .option a {
     color: #1d5479;
     border: 1px solid #ddd;
@@ -172,6 +190,7 @@ nav.tab-menu.navbar {}
     text-align: center;
     width: 130px;
 }
+
 .all-options .option a:hover {
     text-decoration: none;
     background-color: #1d5479;
@@ -182,9 +201,11 @@ nav.tab-menu.navbar {}
 .all-options .option a .hover {
     display: none;
 }
+
 .all-options .option a:hover .hover {
     display: block;
 }
+
 .all-options .option ul {
     opacity: 0.8;
     list-style-type: lower-roman;
@@ -193,21 +214,65 @@ nav.tab-menu.navbar {}
     font-size: 12px;
 
 }
+
 /****/
-.summery{
+.summery {
     border: 1px solid #dddddd;
-    margin: 20px 0 ;
-    background-color: #f4f7f6;
+    margin: 20px 0;
+    background-color: #ffffff;
 }
-.summery ul{}
+
+.summery h4 {
+    background-color: #f4f7f6;
+margin: 0;
+    padding: 15px 0;
+}
+
+.summery ul {
+}
+
+.summery ul li hr {
+    margin: 12px 0;
+}
+
+.summery ul li {
+    padding: 15px ;
+}
+
 .summery ul li.top {
     background-color: #dfeef6;
+    padding: 20px 15px 20px 15px;
 }
-.summery ul li {
+
+.summery ul li .line {
+    min-height: 40px;
 }
-.summery ul li .left{
+
+.summery ul li .left {
     font-weight: 700;
+    width: 70%;
+    display: inline-flex;
+    padding: 0 10px 0 0;
 }
-.summery ul li .left svg{}
-.summery ul li .right{}
-.summery{}
+.summery ul li .left span{
+    display: block;
+    opacity: 0.4;
+
+}
+.summery ul li .left svg {
+    color: #cccccc;
+    font-size: 18px;
+}
+
+.summery ul li .right {
+    width: calc(30% - 5px);
+    display: inline-block;
+    text-align: right;
+}
+.summery ul li .extra-1 {
+    opacity: 0.7;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.summery {
+}
