@@ -33,6 +33,9 @@
 
 /* Mobile: 767px. */
 @media only screen and (max-width: 767px) {
+    nav.tab-menu.navbar ul li:first-child a.nav-link {
+        padding-left: 35px;
+    }
 
     .all-options .option a {
         margin: 10px 5% 0 0;

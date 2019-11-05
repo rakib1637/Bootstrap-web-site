@@ -18,6 +18,8 @@ header {
 
 header nav#topBar {
     padding: 0 0 0 25px;
+    max-width: 1400px;
+    margin: auto;
 }
 
 .navbar-brand {
@@ -212,7 +214,7 @@ nav.tab-menu.navbar {
 }
 
 .all-options .option ul {
-    opacity: 0.8;
+    color: rgba(18, 18, 18, 0.8);
     list-style-type: lower-roman;
     padding-left: 20px;
     margin: 0;
@@ -281,6 +283,7 @@ nav.tab-menu.navbar {
 .summery ul li .left svg {
     color: #cccccc;
     font-size: 18px;
+    margin:2px 0 0 10px;
 }
 
 .summery ul li .right {
